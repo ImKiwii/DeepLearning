@@ -19,8 +19,8 @@ import requests
 # search : String qui prend correspond à la recherche sur google
 # nbPic : Int qui correspond au nombre d'images que l'on veut télécharger
 # time_for_scrolling : Int en seconde qui dépend de votre connexion internet
-category = "happy"
-search='happy human face'
+category = "sad"
+search='sad human face'
 nbPic = 10
 time_for_scrolling = 2 # 1 si fibre ou entre 2 et 5 selon la connection wifi
 ########################################################################
