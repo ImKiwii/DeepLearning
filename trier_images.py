@@ -42,10 +42,10 @@ for imag in list:
         file=os.path.join(path,imag)
         image = img.imread(file)
         plt.imshow(image)
-        plt.pause(0.5)
-        plt.draw()
         
         while(True):
+            plt.pause(0.75)
+            plt.draw()
             key = keyboard.read_key()
             match key:
                 case 'droite':
@@ -57,6 +57,10 @@ for imag in list:
                     # Ne pas valider l'image donc la supprimer
                     os.rename(file,path_del+"/"+imag)
                     print("besoin de delete")
+                    break
+                case 'haut':
+                    # Ne pas valider l'image donc la supprimer
+                    print("refresh")
                     break
                 case _:
                     print("Mauvaise touche, vous ne pouvez toucher que la flèche droite ou gauche.")
