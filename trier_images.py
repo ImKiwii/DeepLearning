@@ -11,6 +11,7 @@ import time
 # category : String qui permet de savoir dans quelle catégorie on souhaite 
 #            trier les images (happy, sad, angry...)
 category = "sad"
+passage = 4 # permet de renommer les photos déplacée pour éviter d'avoir des problèmes d'overwrite
 ########################################################################
 
 
@@ -41,26 +42,24 @@ for imag in list:
     if((not 'del' in imag[0]) and (not "ok" in imag[0:1])):
         file=os.path.join(path,imag)
         image = img.imread(file)
+        plt.clf()
+        plt.pause(0.1)
         plt.imshow(image)
+        plt.pause(0.25)
         
         while(True):
-            plt.pause(0.75)
             plt.draw()
             key = keyboard.read_key()
             match key:
                 case 'droite':
                     # Valider l'image donc le déplacer
-                    os.rename(file,path_dest+"/"+imag)
+                    os.rename(file,path_dest+"/"+ str(passage) + "_"+imag)
                     print("image OK")
                     break
                 case 'gauche':
                     # Ne pas valider l'image donc la supprimer
-                    os.rename(file,path_del+"/"+imag)
+                    os.rename(file,path_del+"/" + str(passage) + "_" +imag)
                     print("besoin de delete")
-                    break
-                case 'haut':
-                    # Ne pas valider l'image donc la supprimer
-                    print("refresh")
                     break
                 case _:
                     print("Mauvaise touche, vous ne pouvez toucher que la flèche droite ou gauche.")

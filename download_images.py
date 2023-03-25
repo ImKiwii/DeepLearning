@@ -20,13 +20,13 @@ import requests
 # nbPic : Int qui correspond au nombre d'images que l'on veut télécharger
 # time_for_scrolling : Int en seconde qui dépend de votre connexion internet
 category = "sad"
-search='sad human face'
-nbPic = 10
+search='crying movie'
+nbPic = 200
 time_for_scrolling = 2 # 1 si fibre ou entre 2 et 5 selon la connection wifi
 ########################################################################
 # path 
 directory = os.path.join("Images", category, "a_trier")
-   
+
 # Create the directory 
 try: 
     if not os.path.exists(directory):
@@ -79,6 +79,8 @@ while True:
     
 
 image_urls=[]
+images_par_pourcent = nbPic/100
+pourcent = 0
 for i in range(1, nbPic+1):
     # Trouver et cliquer sur toutes les miniatures
     try:
@@ -98,6 +100,14 @@ for i in range(1, nbPic+1):
                 image_path = os.path.join(directory,str(i)+"."+image_from_web.format.lower())
                 image_from_web.save(image_path)
     except:
-        nbPic += nbPic
+        nbPic += 1
         pass
+
+    if (i > (pourcent + 1) * images_par_pourcent):
+        pourcent += 1
+        print(str(pourcent) + "% des images ont été téléchargées.")
+
+print(str(100) + "%.")
+print("Fin du téléchargement, fermeture du navigateur")
+
 browser.quit()
