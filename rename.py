@@ -13,8 +13,12 @@ for category in categories:
 
     images = os.listdir(images_path)
 
+    enregistrees = 0
     for i in range(np.size(images)):
         path_image = os.path.join(images_path,images[i])
         extensions = images[i].split('.')
         extension = extensions[1]
-        os.rename(path_image,os.path.join(images_path , category + "_" + str(i) + "." + extension))
+        if (not(category in images[i])):
+            os.rename(path_image,os.path.join(images_path , category + "_" + str(enregistrees) + "." + extension))
+            enregistrees += 1
+
