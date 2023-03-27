@@ -11,6 +11,6 @@ for category in categories:
 
     images = os.listdir(images_path)
 
-    for i in range(np.length(images)):
+    for i in range(np.size(images)):
         print(images[i])
         os.rename(images[i],path_dest+"/"+ str(passage) + "_"+imag)
