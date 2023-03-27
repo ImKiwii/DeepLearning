@@ -17,4 +17,4 @@ for category in categories:
         path_image = os.path.join(images_path,images[i])
         extensions = images[i].split('.')
         extension = extensions[1]
-        os.rename(path_image,os.path.join(images_path , category + "_" + str(i) + "." + extension))
+        os.rename(path_image,os.path.join(images_path , category + str(i) + "." + extension))
