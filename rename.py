@@ -21,7 +21,7 @@ for category in categories:
         extension = extensions[1]
 
         enregistre = False
-        if category + "_" in path_image:
+        if category + "_" + str(enregistrees) in path_image:
             enregistre = True
         
         while not(enregistre):
