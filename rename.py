@@ -33,6 +33,7 @@ for category in categories:
                     enregistre = False
                 finally : 
                     enregistrees+=1
-  
+            else:
+                enregistre = True
                 
 
