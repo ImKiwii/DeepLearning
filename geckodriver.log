@@ -1728,3 +1728,79 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1679994537025	geckodriver	INFO	Listening on 127.0.0.1:54804
+1679994537505	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54805" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofile3SuJi9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679994537858	Marionette	INFO	Marionette enabled
+1679994537916	Marionette	INFO	Listening on port 54812
+Read port: 54812
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54805
+1679994538018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofile3SuJi9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54805/devtools/browser/2731a8fd-4abe-4c53-9694-7dc26ff8c004
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1679994542498	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1679994616033	geckodriver	INFO	Listening on 127.0.0.1:54900
+1679994616551	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54901" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofileL6vSvv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679994616878	Marionette	INFO	Marionette enabled
+1679994616925	Marionette	INFO	Listening on port 54908
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 54908
+WebDriver BiDi listening on ws://127.0.0.1:54901
+1679994617082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofileL6vSvv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54901/devtools/browser/745e1a9c-0648-435e-acf9-5b5e27ad823f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.fr."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1679994732462	Marionette	INFO	Stopped listening on port 54908
+1679995655916	geckodriver	INFO	Listening on 127.0.0.1:55388
+1679995656406	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55389" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofilejhbt7I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679995656732	Marionette	INFO	Marionette enabled
+1679995656781	Marionette	INFO	Listening on port 55396
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 55396
+WebDriver BiDi listening on ws://127.0.0.1:55389
+1679995656953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofilejhbt7I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55389/devtools/browser/9dd02cdd-bb7c-41ef-8d29-af2ed1ed9c55
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.fr."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1679995755326	Marionette	INFO	Stopped listening on port 55396
+1679996507102	geckodriver	INFO	Listening on 127.0.0.1:55885
+1679996507621	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55886" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofilelxXOJ0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679996507971	Marionette	INFO	Marionette enabled
+1679996508018	Marionette	INFO	Listening on port 55894
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 55894
+WebDriver BiDi listening on ws://127.0.0.1:55886
+1679996508118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qv/ym_qh4d52fs432y2q93hv79w0000gn/T/rust_mozprofilelxXOJ0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55886/devtools/browser/cdfe1530-95d2-46ec-9c4a-d9e7ddacb528
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.fr."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1679996608201	Marionette	INFO	Stopped listening on port 55894
