@@ -10,8 +10,8 @@ import time
 ########################################################################
 # category : String qui permet de savoir dans quelle catégorie on souhaite 
 #            trier les images (happy, sad, angry...)
-category = "thoughtful person"
-passage = 4 # permet de renommer les photos déplacée pour éviter d'avoir des problèmes d'overwrite
+category = "thoughful"
+passage = 1 # permet de renommer les photos déplacée pour éviter d'avoir des problèmes d'overwrite
 ########################################################################
 
 
