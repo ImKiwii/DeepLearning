@@ -1,3 +1,4 @@
 Images/*/a_trier
 Images/*/a_supprimer
 .DS_Store
+.ipynb_checkpoints
