@@ -23,9 +23,6 @@ def find_faces(image_path):
         crop = image[y:y+height, x:x+width]
 
         # show the faces / eyes found
-        cv2.imshow(filename, crop)
-        cv2.waitKey(0) 
-        cv2.destroyAllWindows()
         return (crop, True)
     return (0,False)
 
